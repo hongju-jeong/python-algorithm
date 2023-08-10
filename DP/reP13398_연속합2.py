@@ -49,3 +49,5 @@ if(upThanZero > 0):
 
 else:
     print(max(P))
+
+# DP로 다르게 풀어보기
