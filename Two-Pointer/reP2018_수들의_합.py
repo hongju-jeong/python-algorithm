@@ -17,7 +17,8 @@ while(end<=N):
     else:
         count += 1
         end +=1
+        sum = sum + end - start
         start +=1
-        sum = sum + end
+        
 
 print(count)
