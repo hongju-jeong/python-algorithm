@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/1920
 import sys
 import bisect
 input = sys.stdin.readline
