@@ -1,4 +1,4 @@
-
+https://www.acmicpc.net/problem/3151
 '''
 import sys
 import bisect
