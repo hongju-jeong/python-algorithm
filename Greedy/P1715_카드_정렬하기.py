@@ -1,17 +1,11 @@
-<<<<<<< HEAD
+# https://www.acmicpc.net/problem/1715
 """
 import sys
-=======
-# https://www.acmicpc.net/problem/1715
-
-import sys
-import heapq
->>>>>>> d064de1e4f97f6e8902088e46fd0d1355ef2e432
+import heapq1355ef2e432
 
 input = sys.stdin.readline
 
 N = int(input())
-<<<<<<< HEAD
 
 cardNums = [0]*N
 
@@ -38,25 +32,6 @@ input = sys.stdin.readline
 
 N = int(input())
 
-cardNums = []
-for i in range(N):
-    cardNum = int(input())
-    heapq.heappush(cardNums,cardNum)
-
-minCompare = 0
-preSum = 0
-while len(cardNums) >0:
-    if(i<2):
-        cardNum = heapq.heappop(cardNums)
-        minCompare += cardNum
-        preSum = 
-    
-        
-
-    
-print(minCompare)
-    
-=======
 cardNums = [0]*N
 for i in range(N):
     cardNums[i] = int(input())
@@ -75,4 +50,4 @@ else:
         heapq.heappush(cardNums,ABsum)
 
     print(count)
->>>>>>> d064de1e4f97f6e8902088e46fd0d1355ef2e432
+    
