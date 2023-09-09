@@ -1,7 +1,6 @@
 # https://www.acmicpc.net/problem/1325
 
 import sys
-sys.setrecursionlimit(10**8)
 from collections import deque
 
 input = sys.stdin.readline
