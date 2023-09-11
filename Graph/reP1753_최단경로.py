@@ -40,7 +40,7 @@ while queue:
                 heapq.heappush(queue, [distance, new_destination])
                 
 for i in range(1,V+1):
-    if(distances[i] == 999999):
+    if(distances[i] == 999999): # if visited[i]: print(distance[i])
         print('INF')
     else:
         print(distances[i])
