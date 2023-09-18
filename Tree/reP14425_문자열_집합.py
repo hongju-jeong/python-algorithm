@@ -2,6 +2,7 @@
 # dictionary로 구현하기
 # Class 로 구현하기
 # set으로 구현하기
+# list로 구현하기
 
 # Trie 구조
 """
